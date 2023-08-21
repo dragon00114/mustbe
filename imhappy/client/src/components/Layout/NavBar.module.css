@@ -1,0 +1,42 @@
+.header {
+  width: inherit;
+  min-height: 4rem;
+  display: flex;
+  padding: 0 10%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+}
+
+.logo {
+  font-size: 2rem;
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav ul {
+  align-items: center;
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  margin-left: 1.5rem;
+  font-size: 1.25rem;
+}
+
+.nav a,
+.nav span {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.header a:hover,
+.nav span:hover,
+.nav a:hover {
+  color: #111;
+  cursor: pointer;
+}

@@ -1,0 +1,83 @@
+.date {
+  font-weight: bold;
+}
+
+.emoji {
+  font-size: larger;
+}
+
+.actions {
+  text-align: right;
+}
+
+.actions-button {
+  display: none;
+  vertical-align: middle;
+  line-height: 0;
+}
+
+tr:hover .actions-button {
+  display: inherit;
+}
+
+.actions-button:hover {
+  color: #111;
+  cursor: pointer;
+}
+
+tr td.entry {
+  width: 100%;
+  white-space: unset;
+}
+
+.significant .entry {
+  font-size: xxx-large;
+}
+
+.January {
+  background-color: #95042a;
+}
+
+.February {
+  background-color: #453a92;
+}
+
+.March {
+  background-color: #4893af;
+}
+
+.April {
+  background-color: #b9164d;
+}
+
+.May {
+  background-color: #178053;
+}
+
+.June {
+  background-color: #942a73;
+}
+
+.July {
+  background-color: #b1201c;
+}
+
+.August {
+  background-color: #758e29;
+}
+
+.September {
+  background-color: #185395;
+}
+
+.October {
+  background-color: #d04019;
+}
+
+.November {
+  background-color: #c49732;
+}
+
+.December {
+  background-color: #126fb0;
+}
